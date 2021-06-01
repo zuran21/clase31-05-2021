@@ -1,0 +1,64 @@
+body{
+    background:url(/imgs/Bg8bit.gif);
+    background-position: cover;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Sigmar One', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    padding-top: 50px;
+    padding-left: 5%;
+
+}
+header, .main, footer{
+    background-color: rgba(81, 27, 167, 0.856);
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+header nav{
+    background: #5e0759;
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display: flexbox;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background: rgb(39, 6, 92);
+}
+.main .articles{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+.main .articles article{
+    padding: 20px;
+    background: rgb(43, 9, 97);
+    margin-bottom: 20px;
+}
+aside{
+    width: 30%;
+    background: rgb(43, 9, 97)5f3f3;
+    float: left;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #470b63;
+    color: #fff;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+}
